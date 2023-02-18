@@ -1,0 +1,251 @@
+body {
+  background-color: rgba(8, 8, 2, 0.897);
+}
+body .menu {
+  height: 70px;
+  background-color: goldenrod;
+}
+body .menu img {
+  height: 65px;
+  width: 65px;
+}
+body .menu input {
+  width: 160px;
+}
+body .menu button {
+  width: 60px;
+}
+body .menu li {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body .menu li a {
+  text-decoration: none;
+  font-family: "roboto";
+  transition: 0.8s;
+  z-index: 99;
+}
+body .menu li a:hover {
+  text-shadow: 10px 10px 5px rgb(136, 112, 3);
+  color: whitesmoke;
+}
+body .box {
+  width: 130px;
+  height: 80px;
+  right: -3px;
+  top: 50%;
+  background-color: goldenrod;
+  font-family: "Pacifico", cursive;
+  transition: 0.5s;
+}
+body .box:hover {
+  right: 20px;
+}
+body .box a {
+  text-decoration: none;
+  color: black;
+}
+body .box a i {
+  font-size: 30px;
+  transition: 0.5s;
+}
+body .box a i:hover {
+  font-size: 40px;
+}
+body .mobileBox {
+  height: 50px;
+  width: 55px;
+  border: 4px solid rgba(182, 157, 19, 0.801);
+}
+body .Introduce {
+  background-image: url(../img/mainBackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 20px;
+  height: 700px;
+}
+body #container {
+  color: rgba(231, 216, 7, 0.781);
+  font-family: "Merienda", sans-serif;
+  bottom: 0;
+  display: block;
+  position: fixed;
+  height: 100%;
+}
+body #container #flip {
+  height: 55px;
+  overflow: hidden;
+}
+body #container #flip > div > div {
+  color: #fff;
+  padding: 4px 12px;
+  height: 50px;
+  margin-bottom: 45px;
+  display: inline-block;
+}
+body #container p:nth-of-type(1) {
+  font-size: 40px;
+  color: rgb(238, 238, 153);
+  position: fixed;
+  top: 55%;
+}
+body #container p:nth-of-type(2) {
+  bottom: 10%;
+  font-size: 45px;
+  position: fixed;
+}
+body #container p:nth-of-type(2) a {
+  color: rgb(238, 238, 153);
+}
+body #flip div:first-child {
+  animation: show 5s linear infinite;
+}
+body #flip div div {
+  background: rgba(141, 87, 6, 0.4745098039);
+}
+body #flip div:first-child div {
+  background: rgba(43, 40, 14, 0.815);
+}
+body #flip div:last-child div {
+  background: rgba(85, 71, 24, 0.5568627451);
+}
+@keyframes show {
+  0% {
+    margin-top: -270px;
+  }
+  5% {
+    margin-top: -180px;
+  }
+  33% {
+    margin-top: -180px;
+  }
+  38% {
+    margin-top: -90px;
+  }
+  66% {
+    margin-top: -90px;
+  }
+  71% {
+    margin-top: 0px;
+  }
+  99.99% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: -270px;
+  }
+}
+body .myPicture {
+  height: 600px;
+}
+body .myPicture img {
+  height: 400px;
+  width: 400px;
+}
+body .part2 {
+  height: 700px;
+  width: 90%;
+}
+body .part2 p {
+  text-align: justify;
+  font-family: "cantora, arial";
+  font-size: 27px;
+  color: rgba(230, 226, 19, 0.925);
+  font-weight: bold;
+}
+body .part2 p:nth-of-type(1) {
+  top: 50px;
+  text-shadow: 5px 5px 20px rgba(150, 105, 23, 0.89);
+}
+body .part2 p:nth-of-type(2), body .part2 p:nth-of-type(3), body .part2 p:nth-of-type(4) {
+  font-size: 20px;
+  color: wheat;
+}
+body .part2 p:nth-of-type(2) {
+  bottom: 220px;
+}
+body .part2 p:nth-of-type(3) {
+  bottom: 170px;
+}
+body .part2 p:nth-of-type(4) {
+  bottom: 120px;
+}
+body .part2 button {
+  bottom: 70px;
+}
+body .part2 .slider img {
+  width: 550px;
+  height: 600px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .part3 {
+  height: 300px;
+  width: 90%;
+  background-color: black;
+}
+body .part3 p {
+  font-family: "Marck Script";
+  font-size: 80px;
+  color: wheat;
+  text-shadow: 5px 5px 20px rgb(255, 245, 99);
+}
+body .part4 {
+  height: 500px;
+  width: 90%;
+  background-color: black;
+}
+body .part4 .progress {
+  height: 40px;
+  font-size: 20px;
+}
+body .part5 {
+  height: 600px;
+  width: 100%;
+  margin-top: 60px;
+}
+body .part5 p {
+  font-family: "Merienda";
+  font-size: 60px;
+  color: rgb(190, 164, 13);
+  text-shadow: 5px 5px 10px rgb(56, 53, 5);
+  margin-bottom: 50px;
+}
+body .part5 figure img {
+  width: 280px;
+  height: 200px;
+  border-radius: 10px;
+  color: white;
+  filter: invert(200%);
+  opacity: 3;
+  transition: 1s;
+  transform-style: preserve-3d;
+}
+body .part5 figure img:hover {
+  transform: scale(1.2);
+  filter: invert(0%);
+  opacity: 1;
+  z-index: 99 !important;
+}
+body .part6 {
+  height: 500px;
+  width: 100%;
+  background-color: black;
+  margin: 50px auto;
+  padding-top: 50px;
+}
+body .part6 p {
+  font-family: "Merienda";
+  font-size: 40px;
+  color: rgb(221, 220, 211);
+  text-shadow: 5px 5px 10px rgb(56, 53, 5);
+}
+body .part6 .footer p {
+  font-size: 15px;
+}
+body .part6 .footer a {
+  text-decoration: none;
+}/*# sourceMappingURL=global7.css.map */
